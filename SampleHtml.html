@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample CSS in Single File</title>
+
+    <!-- Start of internal CSS -->
+    <style>
+        /* CSS comments look like this */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333; /* Dark gray text color */
+            text-align: center;
+        }
+
+        p {
+            color: #007bff; /* Blue text color for paragraphs */
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto; /* Centers the container horizontally */
+            padding: 20px;
+            background-color: #fff; /* White background for the content area */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow effect */
+        }
+    </style>
+    <!-- End of internal CSS -->
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is a paragraph of text styled with internal CSS.</p>
+        <p>The background is light gray, the main content area has a white background and a shadow, and this blue text is styled by the "p" selector.</p>
+    </div>
+
+</body>
+</html>
+
